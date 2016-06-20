@@ -1,0 +1,16 @@
+{
+	"name": "easing",
+	"version": "1.0.0",
+	"description": "Animation easing functions",
+	"author": "DEG (http://degdigital.com)",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/DEGJS/easing.git"
+    },
+	"jspm": {
+		"format": "es6",
+  		"registry": "jspm",
+  		"main": "easing",
+  		"files": ["easing.js"]
+	}
+}
