@@ -14,3 +14,32 @@
   		"files": ["easing.js"]
 	}
 }
+
+{
+    "name": "easing",
+    "version": "1.0.0",
+    "description": "Animation easing functions",
+    "keywords": [
+    	"easing",
+    	"animation",
+        "DEGJS"
+    ],
+    "author": {
+        "name": "Ryan Heap",
+        "email": "rheap@degdigital.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DEGJS/easing.git"
+    },
+    "bugs": "https://github.com/DEGJS/easing/issues",
+    "jspm": {
+        "registry": "jspm",
+        "format": "es6",
+        "main": "easing.js",
+        "directories": {
+            "lib": "src"
+        }
+    }
+}
