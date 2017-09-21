@@ -1,5 +1,5 @@
 {
-    "name": "easing",
+    "name": "degjs-easing",
     "version": "1.0.1",
     "description": "Animation easing functions",
     "keywords": [
@@ -11,6 +11,7 @@
         "name": "Ryan Heap",
         "email": "rheap@degdigital.com"
     },
+    "main": "src/easing.js",
     "license": "MIT",
     "repository": {
         "type": "git",
