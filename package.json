@@ -15,6 +15,7 @@
         "src"
     ],
     "main": "src/easing.js",
+    "publishConfig": { "access": "public" },
     "license": "MIT",
     "repository": {
         "type": "git",
