@@ -1,18 +1,20 @@
 # Easing
+[![Build Status](https://travis-ci.org/DEGJS/easing.svg?branch=master)](https://travis-ci.org/DEGJS/easing)
+
 A collection of animation easing functions in Javascript's ES6 module format. Easing functions specify the rate of change of a parameter over time. Learn more about easing [here](https://developers.google.com/web/fundamentals/design-and-ui/animations/the-basics-of-easing?hl=en).
 
 ## Install
-Easing is an ES6 module. Consequently, you'll need an ES6 transpiler ([Babel](https://babeljs.io) is a nice one) and a module loader ([SystemJS](https://github.com/systemjs/systemjs) will do the job) as part of your Javascript workflow.
+Easing is an ES module. If your runtime environment does not support ES modules, you'll need a transpiler ([Babel](https://babeljs.io) is a nice one).
 
-If you're already using the [JSPM package manager](http://jspm.io) for your project, you can install Easing with the following command:
+If you're using NPM, you can install Easing with the following command:
 
 ```
-$ jspm install github:DEGJS/easing
+$ npm install @degjs/easing
 ```
 
 ## Usage
 ```js
-import { easeInOutCubic } from 'DEGJS/easing';
+import { easeInOutCubic } from '@degjs/easing';
 
 // animate a value from 100 to 300 with ease-in-out easing over the course of 1 second
 let currentIteration = 0,
@@ -57,6 +59,3 @@ Starts quickly and ends slowly.
 Starts slowly and ends quickly.
 ### .easeInOutCubic(currentIteration, startValue, changeInValue, totalIterations)
 Starts and ends slowly. 
-## Browser Support
-
-Easing does not depend on any special browser APIs and should work with all browsers.
