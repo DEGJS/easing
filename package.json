@@ -1,6 +1,6 @@
 {
     "name": "@degjs/easing",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Animation easing functions",
     "keywords": [
         "easing",
@@ -15,7 +15,9 @@
         "src"
     ],
     "main": "src/easing.js",
-    "publishConfig": { "access": "public" },
+    "publishConfig": {
+        "access": "public"
+    },
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -23,8 +25,8 @@
     },
     "bugs": "https://github.com/DEGJS/easing/issues",
     "devDependencies": {
-        "@babel/core": "^7.0.0",
-        "@babel/preset-env": "^7.0.0",
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
         "@babel/register": "^7.0.0",
         "jasmine": "^3.2.0"
     },
