@@ -1,5 +1,5 @@
 # Easing
-[![Build Status](https://travis-ci.org/DEGJS/easing.svg?branch=master)](https://travis-ci.org/DEGJS/easing)
+![Run Tests](https://github.com/DEGJS/easing/workflows/Run%20Tests/badge.svg)
 
 A collection of animation easing functions in Javascript's ES6 module format. Easing functions specify the rate of change of a parameter over time. Learn more about easing [here](https://developers.google.com/web/fundamentals/design-and-ui/animations/the-basics-of-easing?hl=en).
 
