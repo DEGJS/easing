@@ -1,6 +1,6 @@
 {
     "name": "@degjs/easing",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Animation easing functions",
     "keywords": [
         "easing",
